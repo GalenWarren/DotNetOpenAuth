@@ -1,6 +1,10 @@
 DotNetOpenAuth
 ==============
 
+## Fork Information ##
+
+This changes the base implementation to include "extra data" submitted with an access token request in an associated request token, so that when a token is refreshed, it is presented with the same extra data as was included with the original access token request. This allows for protocol extensions that persist across token refreshes.
+
 Dev Build:: [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/DotNetOpenAuth/DotNetOpenAuth?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Develop - Build status](https://ci.appveyor.com/api/projects/status/fauljiay19x15hn5/branch/develop?svg=true)](https://ci.appveyor.com/project/DavidChristiansen/dotnetopenauth-518/branch/develop)
 
 ## Summary ##
